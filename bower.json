@@ -1,0 +1,18 @@
+{
+  "name": "Restaurant-Site",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Alvaro <pixelajoy@gmail.com>"
+  ],
+  "license": "ISC",
+  "moduleType": [],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
