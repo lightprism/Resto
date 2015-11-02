@@ -13,7 +13,7 @@ function errorHandler(error) {
 
 gulp.task('sass', function() {
     return gulp.src('scss/*.scss')
-        .pipe(sass().on('error', errorHandler)) // Compiles Sass to CSS with gulp-sass
+        .pipe(sass({outputStyle: 'expanded'}).on('error', errorHandler)) // Compiles Sass to CSS with gulp-sass
         .pipe(gulp.dest('css'))
         .pipe(browserSync.stream());
 });
